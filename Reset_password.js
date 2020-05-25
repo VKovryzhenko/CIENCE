@@ -6,5 +6,3 @@ describe('Page of manager',() => {
      cy.get('.MuiButton-label').click()
     })
   })
- 
-  //comment2
