@@ -1,6 +1,6 @@
-describe('Page of manager',() => {
+describe('Log in',() => {
  
-    it('Select Team', () => {
+    it('No credentials', () => {
      cy.visit('http://relax-qa.cienceapps.com')
      cy.get('.MuiButton-label-90').click()
      cy.get('.MuiTypography-root-1').should("exist")
